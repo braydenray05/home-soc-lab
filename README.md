@@ -7,12 +7,12 @@ The goal of this lab is to replicate how real SOC teams detect and respond to th
 
 ## Architecture
 - Kali Linux (Attacker)
-    Used for simulated attacks and reconnaissance
-    Tools: Nmap, SSH, Curl
+    - Used for simulated attacks and reconnaissance
+    - Tools: Nmap, SSH, Curl
 - Ubuntu Server (SOC Sensor / Target)
-    Hosts services and collects security logs
-    Services: SSH, Apache2
-    Logging: auth.log, apache access logs, auditd
+    - Hosts services and collects security logs
+    - Services: SSH, Apache2
+    - Logging: auth.log, apache access logs, auditd
 
 ## Detection Scenario
 - SSH brute-force detection
