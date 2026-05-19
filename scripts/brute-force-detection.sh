@@ -24,6 +24,6 @@ do
 
 	echo "[ALERT] $severity - $ip - $count failed attempts"
 
-	echo "S(date) | $severity | SSH Brute Force | IP: $ip | Attempts: $count" >> $ALERT_LOG
+	echo "$(date '+%Y-%m-%d %H:%M:%S') | $severity | SSH Brute Force | IP: $ip | Attempts: $count" >> $ALERT_LOG
 
 done
