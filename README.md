@@ -40,5 +40,5 @@ The goal of this lab is to replicate how real SOC teams detect and respond to th
 - configs/
 
 ## Author
-Brayden Ray
+Brayden Ray,
 GitHub: https://github.com/braydenray05/home-soc-lab
